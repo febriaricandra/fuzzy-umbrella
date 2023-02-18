@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,12 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/test', function () {
-    return view('users.index');
-});
-Route::get('/admin', function () {
-    return view('admin.index');
-});
 Route::get('/user', function () {
     return view('users.index');
 });
+
+
+
+// create user route
+Route::get('/admin', [AdminController::class, 'index'])->name("admin.index");
+Route::get('/admin/anggota', [AdminController::class, 'anggota'])->name("admin.anggota");
