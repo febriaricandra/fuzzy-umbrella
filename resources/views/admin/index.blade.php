@@ -34,7 +34,7 @@
             </div>
             <!-- Slider controls -->
             <button type="button"
-                class="absolute invisible md:visible lg:visible top-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                class="absolute invisible md:visible lg:visible top-0 z-30 flex items-center justify-center h-1/2 px-4 cursor-pointer group focus:outline-none"
                 data-carousel-prev>
                 <span
                     class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -46,7 +46,7 @@
                 </span>
             </button>
             <button type="button"
-                class="absolute invisible md:visible lg:visible top-0 right-2 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                class="absolute invisible md:visible lg:visible top-0 right-2 z-30 flex items-center justify-center h-1/2 px-4 cursor-pointer group focus:outline-none"
                 data-carousel-next>
                 <span
                     class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -62,7 +62,7 @@
 
 
         <div
-            class="col-span-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            class="col-span-4 md:col-span-2 lg:col-span-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="https://unsplash.com/photos/rsx7gwCtglk" alt="" />
             </a>
@@ -88,7 +88,7 @@
 
 
         <div
-            class="col-span-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            class="col-span-4 md:col-span-2 lg:col-span-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="https://unsplash.com/photos/rsx7gwCtglk" alt="" />
             </a>

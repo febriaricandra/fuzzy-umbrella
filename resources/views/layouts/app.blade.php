@@ -34,7 +34,7 @@
                     </h2>
 
                     <p class="mt-4 leading-relaxed text-white/90">
-                        Sistem Presensi ini dibuat oleh <a href="github.com/febriaricandra" class="text-white underline">febriari candra</a>
+                        Sistem Presensi ini dibuat oleh <a href="https:/www.github.com/febriaricandra" class="text-white underline">febriari candra</a>
                     </p>
                 </div>
             </section>
